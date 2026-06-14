@@ -47,6 +47,7 @@ FastAPI
 How to Run:
 pip install -r requirements.txt
 streamlit run app.py
-Project Goal
+
+Project Goal:
 
 To optimize ride-hailing operations by predicting demand patterns and enabling data-driven decisions for pricing, allocation, and user experience improvement.
