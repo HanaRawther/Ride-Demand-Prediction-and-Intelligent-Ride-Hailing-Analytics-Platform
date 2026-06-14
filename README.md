@@ -1,10 +1,10 @@
 Ride Demand Prediction System
-Overview
+Overview:
 
 This project is a machine learning-based ride demand prediction system designed for ride-hailing platforms. It forecasts ride demand, estimates 
 wait times, and supports surge pricing decisions using historical data from New York City and Bangalore.
 
-Features
+Features:
 Ride demand forecasting using machine learning models
 Exploratory Data Analysis (EDA) with insights and visualizations
 Feature engineering for time-based and location-based patterns
@@ -12,7 +12,8 @@ Transfer learning across cities with limited data
 Surge pricing estimation module
 Wait-time prediction system
 Interactive dashboards for different user roles
-Dataset
+
+Dataset:
 New York City ride demand dataset
 Bangalore ride demand dataset
 Data processed for temporal, spatial, and demand-related features
@@ -24,7 +25,7 @@ Transfer Learning
 
 A model trained on one city was adapted to another city with limited data, improving scalability and reducing the need for large datasets in new locations.
 
-Web Application
+Web Application:
 Frontend built using Streamlit
 Backend developed using FastAPI
 Interactive dashboards for:
@@ -32,7 +33,8 @@ Riders
 Drivers
 Administrators
 Developers
-Tech Stack
+
+Tech Stack:
 Python
 Pandas
 NumPy
@@ -41,7 +43,8 @@ Matplotlib
 Seaborn
 Streamlit
 FastAPI
-How to Run
+
+How to Run:
 pip install -r requirements.txt
 streamlit run app.py
 Project Goal
